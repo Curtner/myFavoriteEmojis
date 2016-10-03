@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "80FFB9DECB7F2043D90753E0BC3B142F7D51EF6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "80FFB9DECB7F2043D90753E0BC3B142F7D51EF6B" : 9223372036854775807,
+    "07B9B69E3123FEFB8A4061F60861993822B87121" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "605AA17D-F186-42A7-89E9-5A61F567A146",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "80FFB9DECB7F2043D90753E0BC3B142F7D51EF6B" : "myFavoriteEmojis\/",
+    "07B9B69E3123FEFB8A4061F60861993822B87121" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myFavoriteEmojis",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myFavoriteEmojis.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Curtner\/swiftassess1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07B9B69E3123FEFB8A4061F60861993822B87121"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Curtner\/myFavoriteEmojis.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "80FFB9DECB7F2043D90753E0BC3B142F7D51EF6B"
+    }
+  ]
+}
