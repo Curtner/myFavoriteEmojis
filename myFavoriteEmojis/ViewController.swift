@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  myFavoriteEmojis
 //
-//  Created by BHSRam2 on 10/3/16.
+//  Created by BHSRam2 on 10/4/16.
 //  Copyright © 2016 BHSRam2. All rights reserved.
 //
 
@@ -12,6 +12,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     @IBOutlet weak var coolTableView: UITableView!
+    
+    var emoji = ["😓 Sad","🤕 Hurt","😳 Surprised","🙄 Rolling eyes","😽 Cat","👻 Ghost","💩 Poop"]
+    
+    
+    
+    
     
 
     override func viewDidLoad() {
@@ -23,15 +29,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         coolTableView.delegate = self  // and contents
     }
         // Looking for the number of rows as an Integer
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return 100
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {return emoji.count
         
     }
         // What we want in the cells
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        print(indexPath.row)
+        
             // Assigns a value
         let cell = UITableViewCell()
         
-        cell.textLabel?.text = "Hello 😂"
+        cell.textLabel?.text = emoji[indexPath.row]
             // control, command, space, brings up emojis
         return cell
     }

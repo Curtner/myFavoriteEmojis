@@ -37,5 +37,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="wfe-Eb-1UP">
+            <objects>
+                <viewController id="8jd-jp-dNK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="InT-MR-k6p"/>
+                        <viewControllerLayoutGuide type="bottom" id="M0b-zQ-nb9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W8S-1x-A74">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⛪️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ba-xM-vS5">
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Ba-xM-vS5" firstAttribute="top" secondItem="InT-MR-k6p" secondAttribute="bottom" constant="50" id="E7z-mp-RZf"/>
+                            <constraint firstItem="3Ba-xM-vS5" firstAttribute="centerX" secondItem="W8S-1x-A74" secondAttribute="centerX" id="MRV-vg-Ptw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1w5-3u-T4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="36"/>
+        </scene>
     </scenes>
 </document>
