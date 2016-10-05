@@ -4,6 +4,7 @@
 //
 //  Created by BHSRam2 on 10/4/16.
 //  Copyright © 2016 BHSRam2. All rights reserved.
+// Segue: A smooth transition
 //
 
 import UIKit
@@ -37,12 +38,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         print(indexPath.row)
         
+        
+        
+        
             // Assigns a value
         let cell = UITableViewCell()
         
         cell.textLabel?.text = emoji[indexPath.row]
             // control, command, space, brings up emojis
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "moveSegue", sender: "🙂")
     }
     
     
@@ -53,6 +61,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Dispose of any resources that can be recreated.
     }
 
-
+// Navigation button, editor, embed in, navigation controller 
 }
 
